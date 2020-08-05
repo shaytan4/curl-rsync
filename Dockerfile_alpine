@@ -1,0 +1,5 @@
+FROM alpine:latest
+
+# Install some tools in the container
+RUN apk update
+RUN apk add wget tmux curl rsync git ca-certificates
